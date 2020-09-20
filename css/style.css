@@ -1,0 +1,32 @@
+html,body{font-family: 'Cairo', sans-serif;height: 100%;width: 100%;background-image: url(../img/bg.png); background-color: #48455d}
+.btn-outline-success{border-radius: 25px;background-color: #48455d;color: white;border-color: #37344b;width: -webkit-fill-available;}
+.btn-outline-success:hover{background-color: #37344b;border-color: #37344b}
+.main h1,h5,p{color: white;}
+.col-md-6 h1{padding-top: 150px}
+
+
+
+
+
+
+
+.btn-outline-success:not(:disabled):not(.disabled).active, .btn-outline-success:not(:disabled):not(.disabled):active, .show>.btn-outline-success.dropdown-toggle {
+    color: #fff;
+    background-color: #37344b;
+    border-color: #37344b;
+}
+
+
+
+
+.btn-outline-success.focus, .btn-outline-success:focus {
+    box-shadow:0 0 0 0.2rem #48455d!important;
+}
+
+
+
+@media only screen and (max-width: 600px) {
+   .img-content{display: none}
+    .col-md-6 h1{padding-top: 0px}
+  }
+}
