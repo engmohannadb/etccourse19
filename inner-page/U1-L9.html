@@ -21,9 +21,18 @@
     <!-- Font Awesome JS -->
     <script defer src='https://use.fontawesome.com/releases/v5.0.13/js/solid.js'></script>
     <script defer src='https://use.fontawesome.com/releases/v5.0.13/js/fontawesome.js'></script>
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src='https://www.googletagmanager.com/gtag/js?id=UA-178671009-1'></script>
+< script >
+  window.dataLayer = window.dataLayer || [];
+            function gtag() { dataLayer.push(arguments); }
+            gtag('js', new Date());
+
+            gtag('config', 'UA-178671009-1');
+</ script >
 
 
-</head>
+</ head>
 
 <body><nav id='sidebar'>
             <div id='dismiss'>
@@ -144,7 +153,7 @@
                         <div class='collapse navbar-collapse ' id='navbarSupportedContent'>
                             <ul class='nav navbar-nav mx-auto'>
                                 <li class='nav-item'>
-                                    <a class='nav-link' href='#'> <button type='button' class='btn btn-secondary pr-5 pl-5 shadow-sm'>تعريف الحقيبة</button></a>
+                                    <a class='nav-link' href='def.html'> <button type='button' class='btn btn-secondary pr-5 pl-5 shadow-sm'>تعريف الحقيبة</button></a>
 
 
                                 </li>
@@ -154,6 +163,7 @@
                                 <li class='nav-item'>
                                     <a class='nav-link' href='../book/pdf.pdf' target='_blank'><button type='button' class='btn btn-secondary pr-5 pl-5 shadow-sm'>الكتاب</button> </a>
                                 </li>
+                                <a href='https://docs.google.com/forms/d/e/1FAIpQLSfO-Kz5ZQ2CLd1Yc7biTWNALUZsjJW4QrIlH9L5iiITOQyiPw/viewform?usp=sf_link' target='_blank' style=' font-size: xx-large;filter: grayscale(100%);'>⚠️ </a>
                             </ul>
                         </div>
                     </div>
@@ -162,7 +172,7 @@
                 <nav aria-label='breadcrumb'>
                     <ol class='breadcrumb'>
                         <li class='breadcrumb-item'><a href='../index.html'>الرئيسية </a></li>
-                        <li class='breadcrumb-item'><span style='color:white'>Counting Rules and Probability </span></li>
+                        <li class='breadcrumb-item'><a href='U1-L1.html'><span style='color:white'>Counting Rules and Probability </span></a></li>
                         <li class='breadcrumb-item active' aria-current='page'>INDEPENDENT EVENTS</li>
                         
                     </ol>
@@ -176,7 +186,7 @@
                 
 
 
-                    <div class='content-text' id='style-1'> <p class='text-right text-justify mr-1 font-weight-normal' dir='rtl'><h5 dir="ltr" style="text-align: left;">5-INDEPENDENT EVENTS</h5>
+                    <div class='content-text' id='style-1'> <p class='text-right text-justify mr-1 font-weight-normal' dir='rtl'><h5 dir="ltr" style="text-align: left;"><span style="color: #ba372a;">5-INDEPENDENT EVENTS</span></h5>
 <p dir="ltr" style="text-align: left;">The conditional probability of E given F,&nbsp;</p>
 <p dir="ltr" style="text-align: left;">is not generally equal to P(E). In&nbsp; other&nbsp; words,&nbsp; knowing&nbsp; that&nbsp; F&nbsp; has occurred&nbsp;</p>
 <p dir="ltr" style="text-align: left;">generally&nbsp; changes&nbsp; the chances of E&rsquo;s occurrence. In the special cases where P(E|F)</p>
@@ -185,23 +195,23 @@
 <p dir="ltr" style="text-align: left;">that E occurs. Since P(E|F) = P(E &cap; F)/P(F), it follows that</p>
 <p dir="ltr" style="text-align: left;">E is independent of F if P(E &cap; F)=P(E) P(F) By symmetric, whenever</p>
 <p dir="ltr" style="text-align: left;">E is independent of F, F is also independent of E. We thus have the following definition.&nbsp;</p>
-<h5 dir="ltr" style="text-align: left;">Definition</h5>
+<h5 dir="ltr" style="text-align: left;"><span style="color: #ba372a;">Definition</span></h5>
 <p dir="ltr" style="text-align: left;">Two events E and F are said to be independent&nbsp;</p>
 <p dir="ltr" style="text-align: left;">if&nbsp; P(E&cap;F) = P(E) P(F) So Two events E and F are said to be independent</p>
 <p dir="ltr" style="text-align: left;">if&nbsp; P(E|F) = P(E) and P(F|E) = P(F) Two events E and F</p>
 <p dir="ltr" style="text-align: left;">that are not independent are said to be dependent.</p>
-<h5 dir="ltr" style="text-align: left;">EXAMPLE 17</h5>
+<h5 dir="ltr" style="text-align: left;"><span style="color: #ba372a;">EXAMPLE 17</span></h5>
 <p dir="ltr" style="text-align: left;">A card is selected at random from an ordinary deck of 52 playing cards.</p>
 <p dir="ltr" style="text-align: left;">If E is the event that the selected card is an ace and F is the event</p>
 <p dir="ltr" style="text-align: left;">that it is a spade, then E and F are independent.</p>
 <p dir="ltr" style="text-align: left;">This follows because P(E &cap; F) =<img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAgCAYAAAASYli2AAABOElEQVRIDe2VS27CMBCGZxGxYMUGmlsVVUT0NJWQmoZzQIvoBXKCCFRuwQKXS5AfTcDW2K1x02TBIpasWGPnm5c9Q2h5UMs8BIHlYY2Exnjfl3/S7QWe8IW3HoGSp3aA2hwGZ21Y2AGbZ7nEEavnPojIzOHjEkoH1/P1XhvP+aC4AwZDFDxgYhjHMaIoqj3zPLeUGKBSCv+dkmiAUthkfZ/ATfpQvaZkcQhX7Drub1cfNlBr0u938FIYnvu22Ro5uFVkroXb14m3qrCytDhdGLsMI5pBq/v+nEIXDispt4CuNVMBlHsWULrcv9FH2CLXZQ21gFrIX+mGlGOXQcbW2gPspMhNDvIPtwIw/t9YyO1yLuLiWlgpGC9MxT6u018TaAGrxn4t+TKL7pXha+WLsQFKd5us7x94BgrqOyOEITjeAAAAAElFTkSuQmCC" alt="" />, whereas P(E) =<img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABkAAAAoCAYAAAALz1FrAAABZElEQVRYCe1WXU7CQBDemKYPPPmiHguiCJyGBAPqORQR79FA9BY+UEl6BjrmWzJkO7ttdknbB22TzXZ2t/1+ppmpohYu1QIGdSBBLv8zu3La02rSo0VyCLKJD3vZ9fMxJqVUcyD5bk2jaUKbxU0zILBpPXyghKg5EJM9329Xb5Sy2Z5zaU4O9EmPsdK5QD54XPVf6wORJFmJXPeJS5UUHv560kp6akDL77yw5RP4gfi8qeJMB1Jhjr3Vrl1ZllEURcEjjmObulg5KQFImqZnDfFOKzyBWDs1LnQgQWZadqEQcsXFfDlFNzleaGB3F8eKHFLHLJDtfOgsgij9z2qmGxggQcYkwERcszeIfBh9/2wQ064yS9CW30e3TsWSDGJLiXkIbF2dMLSBVYIg0WMjDyAQCmApkcmVShDfv+y0WG3ZbOnV7wtK5M/DtaHC/Hz5E3dZadrN9wUQXqx77kCCHP07dv0Ca8rYjNNSTD8AAAAASUVORK5CYII=" alt="" />&nbsp; and P(F) =&nbsp;<img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABoAAAAnCAYAAAARrli9AAABbklEQVRYCe2WQU7DMBBFLRR1wYoN4litikIvkHMgsShmkVMUFnCPConcoouGU7SDBmXMt4OnSYyCEKlkdZKx53l+Rh4bGulnRuLQPwG9v6zocv5INepaWTLGuHFxu0XvSduXrgm2zJctEMPzzf4z4HH/TLlZ0NPueBIgE3yQvK1sCyQu/j/QG9kxQK/rK5cdbkCz+2UE30lk1IKjrx+oWcnS3c8MrbcHjKXanUFYDMkgrqbrs68S5nIWiSS4lLi8V9MA5/cZwYSfMifQYCXHl64oCsqyrPcoy7JTli6juq5p6OhCcqAuk1Pm/DFQc9hqp8XvZBSededBc+M+JGddUitn0E3kLoCnd3Ir10BYccmtPJQuKk9lKerDHYEdLQbpP2EX5c2sFhv/KgYBY2YUxAvCS8hQCMfyQPjBw4z4+cHckbs2Vnb4nYFBUr7YxiU79LEdyhqTrZWRNjHV50mXGkxbP4E0dVTfJJ0qj+b8AOMl48py0DyqAAAAAElFTkSuQmCC" alt="" /></p>
-<h5 dir="ltr" style="text-align: left;">EXAMPLE 18</h5>
+<h5 dir="ltr" style="text-align: left;"><span style="color: #ba372a;">EXAMPLE 18</span></h5>
 <p dir="ltr" style="text-align: left;">Two coins are flipped, and all 4 outcomes are assumed to be equally likely.</p>
 <p dir="ltr" style="text-align: left;">If E is the event that the first coin lands on heads and F the event that the second&nbsp;</p>
 <p dir="ltr" style="text-align: left;">lands on&nbsp; tails, then E and F are independent</p>
 <p dir="ltr" style="text-align: left;">, since P(E &cap; F) = P({(H, T)}) =<img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABEAAAAhCAYAAAA/F0BXAAABFklEQVRIDe2VSwrCMBCGs3IhCG7UTe9kF0o9jSBYvUcVW+k1io/ewkXVS9hfspghTVobS3UhFgJDMvny5cFUoIVPtMDAZyAPnLHqCPjJw1qSTXLcsZt10RUuXK/XDELLEqyRyR9CJ1B8Jwd/BCEEt6FYIOHU6oCvuDqlfuSHIPJxtrsdx3FQ1eqOlk3iOEZVs4bUJb4aZ5NXSXVj34NQtZMFa3vJDbFyk3SNwXiDq5YuYdEm03phvhNatQxyj3w7k+NyguAUwnMDNqGSOQ1MC6lV3E66hkzMs6gAMfy1DoaoEynOsgihxa+DIbe9x8VILUw2VZ8hqiGZ6Lej5qixAaFDlDb9uU1x1A9Wxb8RGyZvzOXUViBPj3dB2UKCE/4AAAAASUVORK5CYII=" alt="" />&nbsp;whereas</p>
 <p dir="ltr" style="text-align: left;">P(E) = P({(H,H), (H, T)}) =&nbsp;<img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAwAAAAhCAYAAADtR0oPAAAA5UlEQVQ4Ed2UQQqDMBBFZ+2qq3YjeCURxJ6m0IV4DynF4jWkUG/Rha2HUL9MWoPRpiYLF60wmGBeZv43E4LlQ5broQDXeIfNofi6hwCelwhEhCAMzIBhSwaNMvwFUCbCJXZqiLhoB2nKW/kPyhfN5NeBrspAnufBdd2P0TSNIl0AeZ5DF1OA6XVdEm2gFLkwsQZa3F4aOtQ47x15jsK00uYSormX5WErE2zpCF1nz1xiryMbgIUtliQLLhOLS8BgMW8sNIi6/RSPd6o6i3G6dzLxeEBTS7lFHfL1wJg2Gc9sXYLWB3qr2Lzg9/6V3gAAAABJRU5ErkJggg==" alt="" />&nbsp;and P(F) = P({(H, T), (T, T)}) =&nbsp;<img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAwAAAAhCAYAAADtR0oPAAAA5UlEQVQ4Ed2UQQqDMBBFZ+2qq3YjeCURxJ6m0IV4DynF4jWkUG/Rha2HUL9MWoPRpiYLF60wmGBeZv43E4LlQ5broQDXeIfNofi6hwCelwhEhCAMzIBhSwaNMvwFUCbCJXZqiLhoB2nKW/kPyhfN5NeBrspAnufBdd2P0TSNIl0AeZ5DF1OA6XVdEm2gFLkwsQZa3F4aOtQ47x15jsK00uYSormX5WErE2zpCF1nz1xiryMbgIUtliQLLhOLS8BgMW8sNIi6/RSPd6o6i3G6dzLxeEBTS7lFHfL1wJg2Gc9sXYLWB3qr2Lzg9/6V3gAAAABJRU5ErkJggg==" alt="" />&nbsp;</p>
-<h5 dir="ltr" style="text-align: left;">EXERCISE:</h5>
+<h5 dir="ltr" style="text-align: left;"><span style="color: #ba372a;">EXERCISE:</span></h5>
 <p dir="ltr" style="text-align: left;">Call a household prosperous if its income exceeds $100; 000.&nbsp;</p>
 <p dir="ltr" style="text-align: left;">Call the household&nbsp; educated&nbsp; if&nbsp; the&nbsp; household&nbsp; completed&nbsp; college.</p>
 <p dir="ltr" style="text-align: left;">Select&nbsp; an American household at random, and let A be the event that the</p>

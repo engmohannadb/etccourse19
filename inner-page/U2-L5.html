@@ -21,9 +21,18 @@
     <!-- Font Awesome JS -->
     <script defer src='https://use.fontawesome.com/releases/v5.0.13/js/solid.js'></script>
     <script defer src='https://use.fontawesome.com/releases/v5.0.13/js/fontawesome.js'></script>
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src='https://www.googletagmanager.com/gtag/js?id=UA-178671009-1'></script>
+< script >
+  window.dataLayer = window.dataLayer || [];
+            function gtag() { dataLayer.push(arguments); }
+            gtag('js', new Date());
+
+            gtag('config', 'UA-178671009-1');
+</ script >
 
 
-</head>
+</ head>
 
 <body><nav id='sidebar'>
             <div id='dismiss'>
@@ -144,7 +153,7 @@
                         <div class='collapse navbar-collapse ' id='navbarSupportedContent'>
                             <ul class='nav navbar-nav mx-auto'>
                                 <li class='nav-item'>
-                                    <a class='nav-link' href='#'> <button type='button' class='btn btn-secondary pr-5 pl-5 shadow-sm'>تعريف الحقيبة</button></a>
+                                    <a class='nav-link' href='def.html'> <button type='button' class='btn btn-secondary pr-5 pl-5 shadow-sm'>تعريف الحقيبة</button></a>
 
 
                                 </li>
@@ -154,6 +163,7 @@
                                 <li class='nav-item'>
                                     <a class='nav-link' href='../book/pdf.pdf' target='_blank'><button type='button' class='btn btn-secondary pr-5 pl-5 shadow-sm'>الكتاب</button> </a>
                                 </li>
+                                <a href='https://docs.google.com/forms/d/e/1FAIpQLSfO-Kz5ZQ2CLd1Yc7biTWNALUZsjJW4QrIlH9L5iiITOQyiPw/viewform?usp=sf_link' target='_blank' style=' font-size: xx-large;filter: grayscale(100%);'>⚠️ </a>
                             </ul>
                         </div>
                     </div>
@@ -162,7 +172,7 @@
                 <nav aria-label='breadcrumb'>
                     <ol class='breadcrumb'>
                         <li class='breadcrumb-item'><a href='../index.html'>الرئيسية </a></li>
-                        <li class='breadcrumb-item'><span style='color:white'>Discrete Random variables and probability distribution </span></li>
+                        <li class='breadcrumb-item'><a href='U2-L1.html'><span style='color:white'>Discrete Random variables and probability distribution </span></a></li>
                         <li class='breadcrumb-item active' aria-current='page'>Discrete Random variables, probability mass function, expected value and variance-5</li>
                         
                     </ol>
@@ -176,7 +186,7 @@
                 
 
 
-                    <div class='content-text' id='style-1'> <p class='text-right text-justify mr-1 font-weight-normal' dir='rtl'><h5 dir="ltr" style="text-align: left;">5- Covariance&nbsp;</h5>
+                    <div class='content-text' id='style-1'> <p class='text-right text-justify mr-1 font-weight-normal' dir='rtl'><h5 dir="ltr" style="text-align: left;"><span style="color: #ba372a;">5- Covariance&nbsp;</span></h5>
 <p dir="ltr" style="text-align: left;">In probability theory and statistics, covariance is a measure of the joint variability of two random variables.</p>
 <p dir="ltr" style="text-align: left;">If the greater values of one variable mainly correspond with the greater values of the other variable,</p>
 <p dir="ltr" style="text-align: left;">and the same holds for the lesser values, (i.e., the variables tend to show similar behavior),</p>
@@ -195,14 +205,14 @@
 <p dir="ltr" style="text-align: left;">=𝐸[𝑋𝑌&minus;𝑋𝐸(𝑌)&minus;𝐸(𝑋)𝑌+𝐸(𝑋)𝐸(𝑌)]</p>
 <p dir="ltr" style="text-align: left;">=𝐸[𝑋𝑌]&minus;𝐸(𝑋)𝐸(𝑌)&minus;𝐸(𝑋)𝐸(𝑌)+𝐸(𝑋)𝐸(𝑌)]</p>
 <p dir="ltr" style="text-align: left;">=𝐸(𝑋𝑌)&minus;𝐸(𝑋)𝐸(𝑌)</p>
-<h5 dir="ltr" style="text-align: left;">Covariance of discrete random variables:</h5>
+<h5 dir="ltr" style="text-align: left;"><span style="color: #ba372a;">Covariance of discrete random variables:</span></h5>
 <p dir="ltr" style="text-align: left;">If the random variable pair (𝑿,𝒀) can take on the values (𝒙𝒊,𝒚𝒊) for 𝒊=𝟏,⋯,𝒏, with equal</p>
 <p dir="ltr" style="text-align: left;">probabilities 𝒑𝒊=<img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABEAAAAeCAYAAADKO/UvAAABQklEQVRIDWP4TwXAQAUz/uM25FzXf03h5v+nibAFqyFnu7T/KygqkW8IyIC2E3//g2iKXALywTAy5N//1/9XJqv9V5VO+L/82T+C8YMZO+e6wDEDih0Y1mg+g9cgTEPwKscuOVwN+fnz5/+Lly7hxdhD5D8iA4IMsbG1w4m9vH1wmYEwBKcKIiSGaOz8/X/hf7uyIkZ2IMs7IMNWr3gBDy2yDHm9tgMlY5JkCCx3Jy9HuALkHBRDYH4GFYunoMUBKCeja4L7A8qAGwKyZVVCy//TZ7vAAdfa3vZ/yfPz4IAkuSh4tS4NXI6AbP/3cs3/JCVF4l0CcyJKAX0O4ipCpRvcOyBDYGECcz7IVeDwebn2fztSlMIshNEohvz7cOR/f2Li//6D78DyH45O/J+QmPg/qfvA//cwHVhoFEOwyBMlBADXzW7mn8Y2+AAAAABJRU5ErkJggg==" alt="" />&nbsp;then the covariance can be equivalently written in terms of the means 𝑬(𝑿) and 𝑬(𝒀)&nbsp; as</p>
 <p dir="ltr" style="text-align: left;"><img src="data:image/png;base64,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" alt="" /></p>
 <p dir="ltr" style="text-align: left;">More&nbsp; generally,&nbsp; if&nbsp; there&nbsp; are n possible&nbsp; realizations&nbsp; of (𝑋,𝑌),</p>
 <p dir="ltr" style="text-align: left;">namely (𝒙𝒊,𝒚𝒊) but&nbsp; with&nbsp; possibly&nbsp; unequal&nbsp; probabilities 𝒑𝒊 for&nbsp; 𝒊=𝟏,⋯,𝒏, then the covariance is</p>
 <p dir="ltr" style="text-align: left;"><img src="data:image/png;base64,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" alt="" /></p>
-<h5 dir="ltr" style="text-align: left;">EXAMPLE 8</h5>
+<h5 dir="ltr" style="text-align: left;"><span style="color: #ba372a;">EXAMPLE 8</span></h5>
 <p dir="ltr" style="text-align: left;">Suppose&nbsp; that 𝑋 and&nbsp; 𝑌 have&nbsp; the&nbsp; following&nbsp; joint&nbsp; probability&nbsp; mass function:</p>
 <p dir="ltr" style="text-align: left;">(𝑥,𝑦)&isin;𝑆={(5,8),(6,8),(7,8),(5,9),(6,9),(7,9)}with probability respectively{0,0.4,0.1,0.3,0,0.2}</p>
 <p dir="ltr" style="text-align: left;">Then we can deduce that 𝑋 can take on three values (5, 6 and 7) with probability respectively (0.3,0.4,0.3)</p>
@@ -216,12 +226,11 @@
 <p dir="ltr" style="text-align: left;">=(0)(5&minus;6)(8&minus;8.5)+(0.4)(6&minus;6)(8&minus;8.5)+</p>
 <p dir="ltr" style="text-align: left;">(0.1)(7&minus;6)(8&minus;8.5)+(0.3)(5&minus;6)(9&minus;8.5)+</p>
 <p dir="ltr" style="text-align: left;">(0)(6&minus;6)(9&minus;8.5)+(0.2)(7&minus;6)(9&minus;8.5)=&minus;0.1</p>
-<h5 dir="ltr" style="text-align: left;">Note that:</h5>
+<h5 dir="ltr" style="text-align: left;"><span style="color: #ba372a;">Note that:</span></h5>
 <p dir="ltr" style="text-align: left;">&nbsp;the variance is a special case of the covariance in which the two variables are identical</p>
 <p dir="ltr" style="text-align: left;">(that is, in which one variable always takes the same value as the other):</p>
 <p dir="ltr" style="text-align: left;">cov(X,X)=Var(X)=<img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAFgAAAAbCAYAAAD4WUj2AAAC5klEQVRoBe1YW24TQRBc8ZGP8MNPwrGIIJFzmkggzHKOgFByDKQIKXuLSAnkEnGj2nUN7d55mh1slI0U7Xg8U11d049ZNzL/VVWgqYo+g8sscOUgmAWeBa6sQGX4ogheyaN8Oz+Upmn6/7PLh8r09gv+x/K18/3VxU0WuSKBYWB58zQAd60cN+8lz0wWl71e9Ot6IQyo1cOVnDUn8vVuleRcJLBGg5FFQmCQyj0EZkduZGgu/3r8JLfS1hZYn6h1kGLpE3/3YigrKC86C1hunLD/Q2Z0rTi+1nnzebsIThhAKbEEEPEQWc/bg3DculaO3nyRn25ifwZ95p5cZnMrFzghbqx0IOoPdWoFsILC71jnUnFBd0Ng3SWZungymqyBx6vlqND7ope6UDjg3cutfI7UcBwG7XJ/zSd802VM+4+Shrq7wbdr/5S6CLFeYO040pKfWUOxn3Pa8EY0ivQkPh00rtv67GpHXC32LMS6ZKfuWndt0rzsONlo1ziOj6cP+ILPrffw59QQwR7ALAeJsn7ilCFwyvCoVBgcfORBpLA8W4umGDg6mAAQy8QSA73AALPpGDIcA88RBWtO336Qj4uXI5saO/ew9J5txkHOnqDbBt8JrLs7gGoITMw+Km1aGvZZAk9QIiCwtxQpgckFpYc6sWTYwDRuDE0OKWvrFEFLUjS1B3ZIEERA0tolwWBkccFET3K2JWLUZLt24wYEfqkXLVAcmty6g2ojMedDvoXIYr0vUiiiFt1hG4fcfIWB9ZW8tB4wy0D8bm8UEU5Dk1NNhR04FfohTJC1goEYcfV3WMt5a28UQSGDE81rLuAUylyss7enGAUncGxR0XeqdhXtU4tZq20EqSU7G/IgcrlNL/AUV5w9fVVGVkFYlpBQlOvTryLwX0XgBBmgHZxsbF/rM3tEFYHpFJtCzm/GPBRdo4mz8+f6OsjaS66o1aFbEDlXFZhGnvNzFrjy6c8CzwJXVqAy/G9IgsybUDohmQAAAABJRU5ErkJggg==" alt="" /></p>
-<h5 dir="ltr" style="text-align: left;">Covariance of linear combinations</h5>
-<p dir="ltr" style="text-align: left;">&nbsp;</p>
+<h5 dir="ltr" style="text-align: left;"><span style="color: #ba372a;">Covariance of linear combinations</span></h5>
 <p dir="ltr" style="text-align: left;">If 𝑋,𝑌,𝑉,𝑎𝑛𝑑 𝑊 are&nbsp; real-valued&nbsp; random&nbsp; variables&nbsp; and 𝑎,𝑏,𝑐,𝑑&nbsp; are real-valued constants,</p>
 <p dir="ltr" style="text-align: left;">then the following facts are a consequence of the definition of covariance:</p>
 <p dir="ltr" style="text-align: left;">cov(X,a)=0</p>
